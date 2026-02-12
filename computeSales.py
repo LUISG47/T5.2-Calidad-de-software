@@ -26,7 +26,8 @@ def main():
     start_time = time.time()
 
     if len(sys.argv) != 3:
-        print("Uso: python computeSales.py priceCatalogue.json salesRecord.json")
+        print("Uso: python computeSales.py "
+              "priceCatalogue.json salesRecord.json")
         return
 
     price_file = sys.argv[1]

@@ -50,11 +50,15 @@ python computeSales.py TC1.ProductList.json TC2.Sales.json
 python computeSales.py TC1.ProductList.json TC3.Sales.json
 ```
 
-Además para poder verificar la calificación del programa que hace la ejecución se puede verificar con el siguiente comando
+Además para poder verificar la calificación del programa que hace la ejecución tanto con Pylint como con flake se puede verificar con los siguiente comandos en los cuales debe de aparecer una calificación de 10 para Pylint y ningún warning para el comando de Flake:
 
 ```bash
-pylint computeSales.py 
+pylint computeSales.py
+flake8 computeSales.py
 ```
 
-<img width="665" height="76" alt="Screenshot 2026-02-12 at 8 07 41 a m" src="https://github.com/user-attachments/assets/3bdd56ab-9652-4a2d-bced-c573eaaa979a" />
+Los resultados de la ejecución sin warnings y con una calificación de 10.0 se pueden ver en la siguiente imagen:
+
+<img width="655" height="105" alt="Screenshot 2026-02-12 at 8 32 19 a m" src="https://github.com/user-attachments/assets/ce4704c7-4dec-4bf9-95fd-972bb6c82541" />
+
 

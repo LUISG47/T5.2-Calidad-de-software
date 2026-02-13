@@ -61,4 +61,10 @@ Los resultados de la ejecución sin warnings y con una calificación de 10.0 se 
 
 <img width="655" height="105" alt="Screenshot 2026-02-12 at 8 32 19 a m" src="https://github.com/user-attachments/assets/ce4704c7-4dec-4bf9-95fd-972bb6c82541" />
 
+## Conclusiones de la actividad
+
+Las pruebas estáticas, como las inspecciones automáticas con PyLint y Flake8, permiten evaluar la calidad del código fuente sin necesidad de ejecutarlo, detectando vulnerabilidades y desviaciones de estándares de calidad de software como lo es PEP 8 de manera temprana. A diferencia de las pruebas dinámicas, que se enfocan en el comportamiento del software en tiempo de ejecución, el análisis estático se origina en las inspecciones formales de Michael Fagan, evolucionando desde revisiones informales hasta herramientas de análisis automático que interactúan directamente con la sintaxis del código. Esta actividad permitió comprender cómo estas herramientas actúan como un "filtro de calidad" previo, asegurando que el código no solo sea funcional, sino también mantenible y profesional.
+
+El beneficio primordial de integrar estas prácticas es el impacto preventivo en la calidad del software, ya que reducen drásticamente el costo de corrección al identificar errores antes de que lleguen a las etapas de prueba dinámica. Al emplear listas de verificación y herramientas automatizadas, se elimina la subjetividad de las revisiones manuales y se fomenta la adopción de estándares industriales de excelencia. La relación entre las herramientas de análisis estático y el código fuente garantiza que cada línea escrita cumpla con una estructura robusta, lo que se traduce en un sistema con menos problemas técnicos y una mayor confiabilidad en entornos productivos de alta escala.
+
 

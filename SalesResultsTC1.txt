@@ -1,7 +1,0 @@
---- REPORTE DE VENTAS ---
-Archivo de Ventas: TC1.Sales.json
-Archivo de Precios: TC1.ProductList.json
--------------------------
-TOTAL DE VENTAS: $2,481.86
--------------------------
-Tiempo de ejecución: 0.000326 segundos
